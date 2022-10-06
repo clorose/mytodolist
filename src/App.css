@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  font-family: 'Pretendard-Regular';
+}
+
+.wrap {
+  text-align: center;
+}
+.input-form{
+  width: 40px;
+  height: 40px;
+  border: 1px solid cornsilk;
+}
+.title{
+  font-family: 'GangwonEduPowerExtraBoldA';
+}
+.Todo{
+  display: flex;
+}
+.TodoList{
+  border-radius: 12px;
+  width: 200px;
+  height: 150px;
+  border: 3px solid #84b280;
+  flex-direction: row;
+  justify-content: space-around;
+}
